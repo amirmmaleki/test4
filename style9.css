@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    font-family: 'Vazir', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .login-panel {
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .image-panel {
+    display: none; /* برای انیمیشن */
+  }
+  
+  /* .animated-input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0; /* شروع با شفافیت صفر */
+    transform: translateY(-20px); /* شروع با جابجایی */
+  }
+  
+  .animated-input.show {
+    opacity: 1; /* شفافیت کامل */
+    transform: translateY(0); /* به موقعیت اصلی برگردد */
+  } */
+  
+  .terms {
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 20px 0;
+  }
+  

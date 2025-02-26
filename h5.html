@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Create an Account</title>
+  </head>
+  <body class="bg-gray-900 flex justify-center items-center min-h-screen">
+    <div
+      class="bg-gray-800 rounded-lg shadow-lg overflow-hidden w-full max-w-4xl flex flex-col md:flex-row"
+    >
+      <!-- Left Section -->
+      <div
+        class="relative md:w-1/2 bg-cover bg-center"
+        style="background-image: url('.//OIP.jpg')"
+      >
+        <div class="absolute inset-0 bg-gray-900 bg-opacity-50"></div>
+        <div
+          class="relative z-10 text-center text-white p-6 flex flex-col justify-center items-center h-full"
+        >
+          <!-- <h1 class="text-3xl font-bold mb-4">AMU</h1> -->
+          <!-- <button class="text-gray-300 bg-gray-700 hover:bg-gray-600 py-2 px-4 rounded-full text-sm mb-6"> -->
+          <!-- Back to website → -->
+          <!-- </button> -->
+          <h2 class="text-xl font-semibold mb-2">
+            Capturing Moments, Creating Memories
+          </h2>
+          <div class="flex justify-center space-x-2 mt-4">
+            <div class="w-3 h-3 bg-white rounded-full"></div>
+            <div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+            <div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="md:w-1/2 p-8 bg-gray-800 flex flex-col justify-center">
+        <h2 class="text-white text-2xl font-bold mb-4">Create an account</h2>
+        <p class="text-gray-400 text-sm mb-6">
+          Already have an account?
+          <a href="#" class="text-purple-500 hover:underline">Log in</a>
+        </p>
+
+        <form action="#" class="space-y-4">
+          <!-- Name Fields -->
+          <div class="flex flex-col md:flex-row gap-4">
+            <input
+              type="text"
+              placeholder="First Name"
+              class="w-full md:w-1/2 p-3 bg-gray-700 text-white rounded-lg placeholder-gray-400 focus:ring-2 focus:ring-purple-500 focus:outline-none"
+            />
+            <input
+              type="text"
+              placeholder="Last Name"
+              class="w-full md:w-1/2 p-3 bg-gray-700 text-white rounded-lg placeholder-gray-400 focus:ring-2 focus:ring-purple-500 focus:outline-none"
+            />
+          </div>
+
+          <!-- Email -->
+          <input
+            type="email"
+            placeholder="Email"
+            class="w-full p-3 bg-gray-700 text-white rounded-lg placeholder-gray-400 focus:ring-2 focus:ring-purple-500 focus:outline-none"
+          />
+
+          <!-- Password -->
+          <div class="relative">
+            <input
+              type="password"
+              placeholder="Enter your password"
+              class="w-full p-3 bg-gray-700 text-white rounded-lg placeholder-gray-400 focus:ring-2 focus:ring-purple-500 focus:outline-none"
+            />
+            <button
+              type="button"
+              class="absolute right-3 top-3 text-gray-400 hover:text-white"
+            ></button>
+          </div>
+
+          <!-- Terms -->
+          <div class="flex items-center">
+            <input
+              type="checkbox"
+              id="terms"
+              class="w-4 h-4 text-purple-500 bg-gray-700 border-gray-600 rounded focus:ring-2 focus:ring-purple-500"
+            />
+            <label for="terms" class="ml-2 text-sm text-gray-400">
+              I agree to the
+              <a href="#" class="text-purple-500 hover:underline"
+                >Terms & Conditions</a
+              >
+            </label>
+          </div>
+
+          <!-- Submit Button -->
+          <button
+            type="submit"
+            class="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg font-semibold"
+          >
+            Create account
+          </button>
+        </form>
+
+        <!-- Divider -->
+        <div class="flex items-center my-6">
+          <hr class="flex-1 border-gray-600" />
+          <span class="mx-4 text-gray-500 text-sm">Or register with</span>
+          <hr class="flex-1 border-gray-600" />
+        </div>
+
+        <!-- Social Buttons -->
+        <div class="flex gap-4">
+          <button
+            class="flex-1 flex items-center justify-center gap-2 bg-gray-700 hover:bg-gray-600 text-white py-3 rounded-lg"
+          >
+            <span class="w-4 h-2 mb-2.5">
+              <img src="Google__G__logo.svg.png" alt="test"
+            /></span>
+            Google
+          </button>
+          <button
+            class="flex-1 flex items-center justify-center gap-2 bg-gray-700 hover:bg-gray-600 text-white py-3 rounded-lg"
+          >
+            <span class="w-4 h-2"
+              ><img
+                src="DALL·E 2025-01-24 05.07.55 - A minimalistic and clean Apple logo (a bitten apple) in metallic silver, floating on a transparent background, highly polished and well-lit, with no b.webp"
+                alt="test"
+            /></span>
+            Apple
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

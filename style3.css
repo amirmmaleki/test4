@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ div {
+    margin: 20px;
+
+ }
+  button{
+    border: none;
+    border-width: o;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: 0.8s;
+
+  }
+
+   button:hover {
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+   }
+     input{
+    padding: 9px;
+    }
+   input:focus-visible {
+    outline: brown auto 1px ;
+   }
